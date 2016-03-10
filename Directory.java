@@ -10,21 +10,21 @@ public class Directory {
     private List<File>  files;
 
     public void addFile( File paramfile ) {
-        files.add(paramfile);
+        this.files.add(paramfile);
     }
 
     public void viewDir () {
-        for ( File file : files) {
+        for ( File file : this.files) {
             System.out.println( file.name + "." + file.Ext);
         }
     }
 
     public List<File> getDir () {
-        return files;
+        return this.files;
     }
 
     public Directory() {
-        files = new ArrayList(); ;
+        this.files = new ArrayList(); ;
 
     }
 
