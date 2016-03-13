@@ -9,8 +9,8 @@ abstract public class File {
     public String Ext;
 
     public File(String nameParam, String paramExt) {
-        name = nameParam;
-        Ext = paramExt;
+        this.name = nameParam;
+        this.Ext = paramExt;
     }
 
  }

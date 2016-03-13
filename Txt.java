@@ -9,6 +9,6 @@ public class Txt extends File {
 
     public Txt(String nameParam ) {
         super(nameParam, "txt");
-        name = nameParam;
+        this.name = nameParam;
     }
 }
